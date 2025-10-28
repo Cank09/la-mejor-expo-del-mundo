@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visor de Presentación</title>
+    <style>
+        /* Estilos básicos para ocupar la pantalla completa con el visor */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Evita barras de desplazamiento en la página principal */
+        }
+        
+        #pdf-viewer {
+            width: 100%;
+            height: 100vh; /* Ocupa el 100% de la altura de la ventana del navegador */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        id="pdf-viewer" 
+        src="Presentación diapositivas cosmética natural negocio elegante minimalista beige.pdf" 
+        frameborder="0" 
+        allowfullscreen
+    >
+        <p>Este navegador no soporta la incrustación de archivos PDF. Por favor, descargue el archivo para verlo: 
+           <a href="Presentación diapositivas cosmética natural negocio elegante minimalista beige.pdf">Descargar Presentación</a>.</p>
+    </iframe>
+
+</body>
+</html>
